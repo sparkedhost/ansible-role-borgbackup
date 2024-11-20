@@ -20,6 +20,10 @@ borg_pip_packages:
   - python3-wheel
   - xxhash
   - xxhash-devel
+  - libfuse-dev 
+  - fuse
+  - libfuse3-dev
+  - fuse3
 
 borg_distro_packages:
   - borgbackup

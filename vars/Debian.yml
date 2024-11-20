@@ -18,6 +18,10 @@ borg_pip_packages:
   - python3-pkgconfig
   - python3-msgpack
   - python3-venv
+  - libfuse-dev 
+  - fuse
+  - libfuse3-dev
+  - fuse3
 
 borg_distro_packages:
   - borgbackup
